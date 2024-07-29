@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 1: Web Application</title>
+</head>
+<body>
+  <header>
+    <h1>Experiment 1</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#formatting">Introduction</a></li>
+      <li><a href="#multimedia">Multimedia Elements</a></li>
+      <li><a href="#formcontrols">Form Controls</a></li>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#tables">Tables</a></li>
+    </ul>
+  </nav>
+
+  <section id="formatting">
+    <h2>Hello</h2>
+    <p>This is Noir here what sup <strong>Brother</strong> and <em>Good Morning</em>.<h3>Greetings</h3> and <h4>Welcome</h4></p>
+    <blockquote>Hiiiiii Every one must be fine</blockquote>
+  </section>
+
+  <section id="multimedia">
+    <h2>Images And Videos </h2>
+    <img src="images.jpeg" alt="Placeholder Image">
+    <video width="400" controls>
+      <source src="https://www.youtube.com/watch?v=dlXSJ83T9Lg" type="video">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="formcontrols">
+    <h2>Form</h2>
+    <form action="/submit-form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <section id="tables">
+    <h2>Tables with Stylesheet</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gaurav</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Saket</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Experiment 1 Web Application. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
